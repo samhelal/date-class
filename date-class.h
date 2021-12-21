@@ -25,10 +25,10 @@ class date{
     }
     void setMonth (int initialMonth){
         if(initialMonth>=1){
-            m = initialMonth ;
+            m = 1 ; //month value is in the range 1–12; if it isn’t, set the month to 1
         }
         if(initialMonth<=12){
-            m = initialMonth ;
+            m = 1 ; //month value is in the range 1–12; if it isn’t, set the month to 1
         }
     }
 
