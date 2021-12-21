@@ -39,11 +39,7 @@ class date{
     void setYear (int initialYear){
         y = initialYear ;
     }
-
-    void getDate(std::string mo ){
-        mo = m ;
-    }
-
+ 
     int getMonth() const {
         return m ;
     }
