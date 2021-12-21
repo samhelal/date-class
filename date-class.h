@@ -53,8 +53,7 @@ class date{
     std::string displayDate() const {
         
 
-       return std::to_string(getMonth()) + "/" + std::to_string(getDay())
-              + "/"+ std::to_string(getYear());
+       return std::to_string(getMonth()) + "/" + std::to_string(getDay()) + "/" + std::to_string(getYear()) ;
 
     }
 
